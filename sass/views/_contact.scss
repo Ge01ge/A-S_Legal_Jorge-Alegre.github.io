@@ -1,0 +1,48 @@
+/* ------------------------------------ Contact----------------------------------- */
+.form{
+    
+    border-radius: 20px; 
+    color: $secondary;
+}
+
+.fieldset{
+    background-color: #0d2033;
+    border:2px solid $secondary; 
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.form_p{
+    @include text ($t-left, null, $fontS-p);
+        padding: 1rem;
+        margin-right: 30px;
+        margin-left: map-get($espacios, mL-p);
+        color: $secondary;
+}
+
+.f_btn{
+    float:right; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    &_send{
+        width: 70px; 
+        margin-right: 5px;
+        border-radius:10px; 
+        background-color: rgb(4, 163, 4); 
+        color: $secondary;
+    }
+    &_reset{
+        width: 70px; 
+        margin-right: 5px;
+        border-radius:10px; 
+        background-color: red;  
+        color: $secondary;
+    }
+}
+.style-file{
+    display:flexbox; 
+    max-width: 170px;
+    
+}
+
+/* ------------------------------------ /Contact----------------------------------- */
