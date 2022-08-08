@@ -24,20 +24,21 @@
     float:right; 
     margin-right: 10px;
     margin-bottom: 10px;
-    &_send{
+    &_seleccion{
         width: 70px; 
         margin-right: 5px;
         border-radius:10px; 
-        background-color: rgb(4, 163, 4); 
-        color: $secondary;
     }
-    &_reset{
-        width: 70px; 
-        margin-right: 5px;
-        border-radius:10px; 
-        background-color: red;  
-        color: $secondary;
-    }
+}
+.send{
+    color: green; 
+    border: 2px solid green;
+    font-weight: bolder;
+}
+.borrar{
+    color: red; 
+    border: 2px solid red;
+    font-weight: bolder;
 }
 .style-file{
     display:flexbox; 

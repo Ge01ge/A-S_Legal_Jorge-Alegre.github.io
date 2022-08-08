@@ -15,11 +15,19 @@
     border-radius: 10px;
     padding: 5px;
     margin-left: 30%;
+    margin-top: 1rem;
+    color: $secondary;
+    &_a:hover{
+        color: $bg-SubT;
+        border: solid 1px $bg-SubT;
+        text-decoration: none;
+}
 }
 
 .blog_li{
     text-decoration: none;
     margin: 0px 0px 0px 2rem;
     } 
+
 
 /* --------------------------------- /Blog --------------------------------------------- */

@@ -22,6 +22,10 @@ a:hover {
   border: solid 1px #FF5376;
   text-decoration: none; }
 
+.visited_item:visited {
+  color: white;
+  text-decoration: none; }
+
 .bg-1 {
   background: #0d2033; }
 
@@ -35,7 +39,8 @@ a:hover {
   font-size: 13px; }
 
 .footer_icon {
-  color: white; }
+  width: 30px;
+  height: 30px; }
 
 /* ------------------------------- /-footer ------------------------------------------- */
 /* Al importar un background-imagen el paquete de atributos es
@@ -80,6 +85,9 @@ a:hover {
   width: 100%;
   margin: 10px 0 0px 20px; }
 
+.form_texColor {
+  color: white; }
+
 /* ---------------------------- Carousel------------------------------------------- */
 .carousel-h4 {
   color: white;
@@ -120,18 +128,20 @@ a:hover {
   float: right;
   margin-right: 10px;
   margin-bottom: 10px; }
-  .f_btn_send {
+  .f_btn_seleccion {
     width: 70px;
     margin-right: 5px;
-    border-radius: 10px;
-    background-color: #04a304;
-    color: white; }
-  .f_btn_reset {
-    width: 70px;
-    margin-right: 5px;
-    border-radius: 10px;
-    background-color: red;
-    color: white; }
+    border-radius: 10px; }
+
+.send {
+  color: green;
+  border: 2px solid green;
+  font-weight: bolder; }
+
+.borrar {
+  color: red;
+  border: 2px solid red;
+  font-weight: bolder; }
 
 .style-file {
   display: flexbox;
@@ -152,7 +162,13 @@ a:hover {
   font-size: 20px;
   border-radius: 10px;
   padding: 5px;
-  margin-left: 30%; }
+  margin-left: 30%;
+  margin-top: 1rem;
+  color: white; }
+  .blog_btn_a:hover {
+    color: #FF5376;
+    border: solid 1px #FF5376;
+    text-decoration: none; }
 
 .blog_li {
   text-decoration: none;
