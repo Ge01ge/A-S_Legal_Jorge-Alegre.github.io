@@ -21,7 +21,7 @@ $bg-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width=
     }
 
     &_p {
-        @include text ($t-left, null, $fontS-p);
+        @include text ($t-justify, null, $fontS-p);
         padding-left: 2rem;
         margin-right: 30px;
         margin-left: map-get($espacios, mL-p);

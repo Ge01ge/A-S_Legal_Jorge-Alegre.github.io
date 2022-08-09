@@ -1,6 +1,5 @@
 /* ------------------------------------ Contact----------------------------------- */
 .form{
-    
     border-radius: 20px; 
     color: $secondary;
 }
@@ -11,6 +10,13 @@
     border-radius: 20px;
     margin: 10px;
 }
+.form_h3 {
+    color: $secondary;
+    text-align: left;
+    font-style: italic;
+    font-size: 25px;
+    width: 100%;
+    margin: 5px 0 0px 10px; }
 
 .form_p{
     @include text ($t-left, null, $fontS-p);
@@ -19,9 +25,16 @@
         margin-left: map-get($espacios, mL-p);
         color: $secondary;
 }
+.form_pleceholder{
+    width: 100%; 
+    margin-right: 10px; 
+    margin-bottom: 1rem; 
+    font-style: italic;
+}
 
 .f_btn{
     float:right; 
+    margin-top: 1rem;
     margin-right: 10px;
     margin-bottom: 10px;
     &_seleccion{
@@ -43,7 +56,12 @@
 .style-file{
     display:flexbox; 
     max-width: 170px;
-    
+    border-radius: 15px;
+}
+.style_1{
+    font-size: 20px; 
+    padding-left: 10px; 
+    padding-right: 10px;
 }
 
 /* ------------------------------------ /Contact----------------------------------- */

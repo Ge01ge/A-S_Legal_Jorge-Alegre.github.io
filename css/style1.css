@@ -57,7 +57,7 @@ a:hover {
   background-attachment: fixed;
   background-size: cover; }
   .cuerpo_p {
-    text-align: left;
+    text-align: justify;
     font-size: 20px;
     padding-left: 2rem;
     margin-right: 30px;
@@ -66,7 +66,7 @@ a:hover {
     color: black;
     text-align: center;
     font-style: italic;
-    font-size: 40px;
+    font-size: 45px;
     padding: 2vh 2vw 0 2vw; }
   .cuerpo_h2 {
     color: black;
@@ -116,6 +116,14 @@ a:hover {
   border-radius: 20px;
   margin: 10px; }
 
+.form_h3 {
+  color: white;
+  text-align: left;
+  font-style: italic;
+  font-size: 25px;
+  width: 100%;
+  margin: 5px 0 0px 10px; }
+
 .form_p {
   text-align: left;
   font-size: 20px;
@@ -124,8 +132,15 @@ a:hover {
   margin-left: 18px;
   color: white; }
 
+.form_pleceholder {
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 1rem;
+  font-style: italic; }
+
 .f_btn {
   float: right;
+  margin-top: 1rem;
   margin-right: 10px;
   margin-bottom: 10px; }
   .f_btn_seleccion {
@@ -145,7 +160,13 @@ a:hover {
 
 .style-file {
   display: flexbox;
-  max-width: 170px; }
+  max-width: 170px;
+  border-radius: 15px; }
+
+.style_1 {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 /* ------------------------------------ /Contact----------------------------------- */
 /* --------------------------------- Blog --------------------------------------------- */
@@ -185,12 +206,14 @@ a:hover {
 
 .galeria--items {
   position: relative;
-  border: solid black; }
+  border: solid black;
+  border-radius: 20px; }
 
 .galeria__img {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  border-radius: 20px; }
 
 .item_name {
   position: absolute;
@@ -204,7 +227,8 @@ a:hover {
 
 .galeria--items:hover {
   filter: opacity(0.9);
-  transform: scale(1.04); }
+  transform: scale(1.04);
+  border-radius: 20px; }
 
 .galeria--items:nth-child(2) {
   grid-column-start: span 2; }

@@ -34,7 +34,7 @@
                         style="font-size: 18px;">Estudio
                         Juridico</span></p>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-label="menu" data-bs-target="#opciones">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-label="menu" data-bs-target="#opciones" style="margin-right: 2rem;">
                 <span aria-hidden="true"> Menu</span>
             </button>
             <div class="collapse navbar-collapse justify-content-md-end" id="opciones">
@@ -70,33 +70,31 @@
         <div class="contenedor">
             <h1 class="cuerpo_h1"> Estamos para Atender tu Consulta:</h1>
             <div class="form">
-                <form action="" class="mx-auto col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                <form action="" class="mx-auto col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
                     <fieldset class="fieldset form_p">
-                        <legend>
-                            <h2 class="cuerpo_h2 form_texColor">Dejanos tu Consulta:</h2>
+                        <legend >
+                            <h3 class="form_h3" > Dejanos tu Consulta:</h3>
                         </legend>
 
-                        <p> En este formulario podes ingresar tu consulta, para que nuestro equipo lo analice y se contacto contigo para ver los pasos legales a seguir</p>
+                        <label for="nombre y apellido"> Nombre y Apellido: </label> <br>
+                        <input type="text" name="nombre y apelido" placeholder="     Nombre y Apellido" class="form_pleceholder">
 
-                        <label for="nombre y apellido"> Nombre y Apellido: </label>
-                        <input type="text" name="nombre y apelido" placeholder="Nombre y Apellido"> <br> <br>
+                        <label for="email"> Correo: </label> <br>
+                        <input type="email" id="email" placeholder="     ejemplo_algo@gmail.com" class="form_pleceholder">
+                        
+                        <label for="Tel"> Tel: </label> <br>
+                        <input type="text" placeholder="     3794-000000" class="form_pleceholder"> 
 
-                        <label for="email"> Correo: </label>
-                        <input type="email" id="email" placeholder="ejemplo_algo@gmail.com"> <br> <br>
-
-                        <label for="Tel"> Tel: </label>
-                        <input type="text" placeholder="3794-000000"> <br> <br>
-
-                        <label for="comentario"> Comentarios:</label>
-                        <textarea id="comentario" name="comentario" placeholder="nescribe aqui tu consulta" cols="" rows=""></textarea> <br> <br>
+                        <label for="comentario"> Comentarios:</label> <br>
+                        <textarea id="comentario" name="comentario" placeholder="     escribe aqui tu consulta" cols="" rows="" class="form_pleceholder"></textarea>
 
                         <label for="elegir-abogado"> Especialista:</label>
                         <select name="elegir-abogado">
                             <option value="selecionar" active> Sin especificar</option>
                             <option value="abogado-a">abogado A</option>
                             <option value="abogado-b"> abogado B</option>
-                        </select> 
-                        <br> <br>
+                        </select> <br>
+                        
                         <div class="f_btn">
                             <input class="f_btn_seleccion send" type="submit" value="Send">
                             <input class="f_btn_seleccion borrar" type="reset" value=" Reset">
@@ -105,11 +103,11 @@
 
                     <fieldset class="fieldset form_p">
                         <legend>
-                            <h2 class="cuerpo_h2 form_texColor">Información Adicional y/o Requerida: </h2>
+                            <h3 class="form_h3">Información Adicional y/o Requerida: </h3>
                         </legend>
-                        <label for="archivo"> Adjuntar Archivo </label>
-                        <input id="archivo" type="file" name="" class="style-file"> 
-                        <br> <br>
+                        <label for="archivo"></label>
+                        <input id="archivo" type="file" name="" class="style-file" style="margin-left: 2rem;">
+                        
                         <div class="f_btn">
                             <input class="f_btn_seleccion send"  type="submit" value="Send">
                             <input class="f_btn_seleccion borrar" type="reset" value=" Reset">
@@ -119,34 +117,33 @@
             </div>
 
             <div class="container mt-2">
-                <div class=" fieldset row mx-auto col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"
-                    style=" min-width: 54%;">
+                <div class=" fieldset row mx-auto col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8" style=" min-width: 54%;">
                     <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                         <div class="content-left my-2">
                             <iframe title="Google/maps: Ubicación"
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.049247870889!2d-58.82406568569759!3d-27.            46772612319348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.           1!3m3!1m2!1s0x94456b5c313fa681%3A0x9506f1e73d9a5074!2sRotonda%20Poncho%20Verde!5e0!3m2!1ses!2sar!4v1654725645568!5m2!1ses!2sar"
-                                width="90%" height="300"
-                                style=" margin-left: 20px; margin-top: 20px; margin-bottom: 10px; border-radius: 20px;"
+                                width="80%" height="200"
+                                style=" margin: 2em;  border-radius: 20px;"
                                 allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                             </iframe>
                         </div>
                     </div>
                     <div class=" col-12 col-sm-12 col-md-12 col-lg-6  col-xl-6 col-xxl-6">
                         <div class="content-right">
-                            <h3 class="cuerpo_h3 mt-4 form_texColor"> Podes Encontrarnos en:<h3>
+                            <h3 class=" mt-4 form_h3"> Podes Encontrarnos en:<h3>
                                     <div class="px-3 form_p">
                                         <p> Corrientes- Ctes. Capital </p>
                                         <p> Direccion: Calla Siempre Viva</p>
                                         <p> Telefono: 0000 000000</p>
                                         <ul>
                                             <li> 
-                                                <a href="https://es-la.facebook.com/" class="visited_item" target="_blank"> Facebook</a>
+                                                <a href="https://es-la.facebook.com/" class="visited_item style_1" target="_blank"> Facebook</a>
                                             </li>
                                             <li> 
-                                                <a href="https://twitter.com/?lang=es"  class="visited_item" target="_blank"> Twitter</a>
+                                                <a href="https://twitter.com/?lang=es"  class="visited_item style_1" target="_blank"> Twitter</a>
                                             </li>
                                             <li> 
-                                                <a href="https://www.instagram.com/" class="visited_item" target="_blank"> Instagram</a>
+                                                <a href="https://www.instagram.com/" class="visited_item style_1" target="_blank"> Instagram</a>
                                             </li>
                                         </ul>
                                     </div>
