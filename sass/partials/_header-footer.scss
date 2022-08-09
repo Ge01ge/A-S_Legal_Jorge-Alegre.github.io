@@ -15,8 +15,8 @@ a{
 }
     &:hover{
         color: $bg-SubT;
-        border: solid 1px $bg-SubT;
         text-decoration: none;
+        border-radius: 20px;
 }
 }
 .visited{

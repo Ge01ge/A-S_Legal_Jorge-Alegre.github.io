@@ -19,8 +19,8 @@ a:link {
 
 a:hover {
   color: #FF5376;
-  border: solid 1px #FF5376;
-  text-decoration: none; }
+  text-decoration: none;
+  border-radius: 20px; }
 
 .visited_item:visited {
   color: white;
