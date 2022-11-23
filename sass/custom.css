@@ -22,7 +22,12 @@ a:link {
 }
 a:hover {
   color: #FF5376;
-  border: solid 1px #FF5376;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.visited_item:visited {
+  color: white;
   text-decoration: none;
 }
 
@@ -40,7 +45,8 @@ a:hover {
   font-size: 13px;
 }
 .footer_icon {
-  color: white;
+  width: 30px;
+  height: 30px;
 }
 
 /* ------------------------------- /-footer ------------------------------------------- */
@@ -61,15 +67,15 @@ a:hover {
 .cuerpo_p {
   text-align: justify;
   font-size: 20px;
-  padding: 1rem;
+  padding-left: 2rem;
   margin-right: 30px;
   margin-left: 18px;
 }
 .cuerpo_h1 {
   color: black;
-  text-align: left;
+  text-align: center;
   font-style: italic;
-  font-size: 40px;
+  font-size: 45px;
   padding: 2vh 2vw 0 2vw;
 }
 .cuerpo_h2 {
@@ -91,6 +97,10 @@ a:hover {
   margin: 10px 0 0px 20px;
 }
 
+.form_texColor {
+  color: white;
+}
+
 /* ---------------------------- Carousel------------------------------------------- */
 .carousel-h4 {
   color: white;
@@ -102,6 +112,120 @@ a:hover {
 
 /* ------------------------------------ /Carousel----------------------------------- */
 /* ------------------------------------ /Main -------------------------------------- */
+/* ------------------------------------ Staff----------------------------------- */
+.perfil_I {
+  min-width: 80%;
+  height: 50vh;
+  border-radius: 100px;
+}
+
+/* ------------------------------------ /Staff----------------------------------- */
+/* ------------------------------------ Contact----------------------------------- */
+.form {
+  border-radius: 20px;
+  color: white;
+}
+
+.fieldset {
+  background-color: #0d2033;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.form_h3 {
+  color: white;
+  text-align: left;
+  font-style: italic;
+  font-size: 25px;
+  width: 100%;
+  margin: 5px 0 0px 10px;
+}
+
+.form_p {
+  text-align: left;
+  font-size: 20px;
+  padding: 1rem;
+  margin-right: 30px;
+  margin-left: 18px;
+  color: white;
+}
+
+.form_pleceholder {
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.f_btn {
+  float: right;
+  margin-top: 1rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.f_btn_seleccion {
+  width: 70px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.send {
+  color: green;
+  border: 2px solid green;
+  font-weight: bolder;
+}
+
+.borrar {
+  color: red;
+  border: 2px solid red;
+  font-weight: bolder;
+}
+
+.style-file {
+  display: flexbox;
+  max-width: 170px;
+  border-radius: 15px;
+}
+
+.style_1 {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* ------------------------------------ /Contact----------------------------------- */
+/* --------------------------------- Blog --------------------------------------------- */
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.blog_btn {
+  background-color: rgba(13, 32, 51, 0.9568627451);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-left: 30%;
+  margin-top: 1rem;
+  color: white;
+}
+.blog_btn_a:hover {
+  color: #FF5376;
+  border: solid 1px #FF5376;
+  text-decoration: none;
+}
+
+.blog_li {
+  text-decoration: none;
+  margin: 0px 0px 0px 2rem;
+}
+
+/* --------------------------------- /Blog --------------------------------------------- */
 /* ---------------------------- Galeria ------------------------------------- */
 .galeria--conteiner {
   display: grid;
@@ -113,12 +237,14 @@ a:hover {
 .galeria--items {
   position: relative;
   border: solid black;
+  border-radius: 20px;
 }
 .galeria__img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 20px;
 }
 
 .item_name {
@@ -135,6 +261,7 @@ a:hover {
 .galeria--items:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
+  border-radius: 20px;
 }
 .galeria--items:nth-child(2) {
   grid-column-start: span 2;
@@ -156,30 +283,6 @@ a:hover {
 }
 
 /*------------------------------------- /galeria -------------------------------------*/
-/* --------------------------------- Blog --------------------------------------------- */
-.contenedor {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 1rem;
-}
-
-.blog_btn {
-  background-color: rgba(13, 32, 51, 0.9568627451);
-  width: 200px;
-  height: 40px;
-  text-align: center;
-  font-size: 20px;
-  border-radius: 10px;
-  padding: 5px;
-  margin-left: 30%;
-}
-
-.blog_li {
-  text-decoration: none;
-  margin: 0px 0px 0px 2rem; /*top rigth bottom left*/
-}
-
-/* --------------------------------- /Blog --------------------------------------------- */
 /*------------------------- @media query>> galeria ------------------------------------*/
 @media screen and (max-width: 400px) {
   /*---------------------- Galeria --------------------------------*/
